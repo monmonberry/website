@@ -1,11 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Luminova | Secure Geospatial Intelligence</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <meta name="description" content="Luminova provides secure geospatial intelligence and cyber security services for Australian government and industry. BuyICT panel supplier based in Canberra.">
 
 <style>
@@ -54,6 +52,17 @@ nav a {
 
 nav a:hover {
   text-decoration:underline;
+}
+
+nav .logo-container {
+  display:flex;
+  align-items:center;
+}
+
+nav .logo-container img {
+  height:50px;
+  width:auto;
+  margin-right:0.8rem;
 }
 
 .hero {
@@ -151,7 +160,11 @@ button:hover {
 <header>
   <div class="container">
     <nav>
-      <strong>Luminova</strong>
+      <div class="logo-container">
+        <!-- Dark Luminova logo embedded as Base64 -->
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAADbJ0H+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB..." alt="Luminova Logo">
+        <strong>Luminova</strong>
+      </div>
       <div>
         <a href="#services">Services</a>
         <a href="#government">Government</a>
